@@ -32,6 +32,9 @@ function updateHiCharts (visibleOwner) {
 	// The main owner has the possibility of being in debt
 	var minYValue = Math.min.apply (Math, dataSeries[dataSeries.length - 1].data);
 
+	if (minYValue > 0)
+		minYValue = 0;
+
 
 	// Setting the color for theming purposes
 	var masterDarkThemeBg = '#303030',
