@@ -214,6 +214,8 @@ function generateDataSeries (ownerIncomes, ownerExpenses, mainOwner, payPeriods,
 		var expensesData = [], // container for avoiding double-iteration of expenses
 			expenseAccumulator = zeroIncomeArray (payPeriods);
 
+		console.log (visibleOwner);
+
 		for (var expense in ownerExpenses[owner]) {
 			expensesData.push (postProcessExpenseData ({name: expense, data: ownerExpenses[owner][expense]}, isMainOwner, ownerCount, visibleOwner !== undefined, owner === visibleOwner || visibleOwner === '_ALL_OWNER$'));
 			expenseAccumulator = fusionOf (expenseAccumulator, ownerExpenses[owner][expense]);
