@@ -255,9 +255,9 @@ function generateDataSeries (ownerIncomes, ownerExpenses, mainOwner, payPeriods,
 	function postProcessExpenseData (object, expenseBelongsToMainOwner, id, visibleOwnerIsGiven, ownerIsTheOnlyOneThatShouldBeVisibleBecauseOfButtonClick) {
 		var expenseTotal = sum (object.data);
 
-		console.log ('should be visible? ' + visibleOwnerIsGiven);
-
 		var display = visibleOwnerIsGiven? ownerIsTheOnlyOneThatShouldBeVisibleBecauseOfButtonClick : !(onlyDisplayMainOwner && !expenseBelongsToMainOwner);
+
+		console.log ('display "' + object.name + '"? ' + display);
 
 		return {name: '(' + id + ') ' + object.name + ' ($' + expenseTotal + ')', data: object.data, visible: display};
 	}
