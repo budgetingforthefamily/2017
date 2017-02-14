@@ -1,0 +1,39 @@
+{
+	"budgetTitle": "2017 Budget",
+	"daysPerPeriod": 14,
+	"payPeriods": 11,
+	"periodStartDate": "1/4/17",
+	"useDarkTheme": true,
+	"initialBankAmount": 2227.69,
+	"mainOwner": "Son 1",
+	"onlyDisplayMainOwner": true,
+	"owners": {
+		"Son 1": {
+			"payPerPeriod": 400,
+			"income": [787.08, 567.54, 1560.3],
+			"actualExpenses": {
+				"Other Expenses": [214.29, 63.33, 182.65],
+				"Household Expenses": [34.4, 94.28, 135.22],
+				"Property Taxes": [240]
+			}
+		},
+		"Son 2": {
+			"income": [1026.68, 0, 0],
+			"actualExpenses": {
+				"Google Fi": [29.73, 0, 28.39],
+				"Cici's Pizza": [40],
+				"McDonald's": [11.31],
+				"China River Buffet": [0, 22.37],
+				"Uber": [0, 0, 26.15],
+				"Konami": [0, 0, 1.98]
+			}
+		},
+		"Parent 1": {
+			"income": [179.25, 0, 0],
+			"actualExpenses": {
+				"Miscellaneous": [48.68, 100],
+				"Other Expenses": [29.61]
+			}
+		}
+	}
+}

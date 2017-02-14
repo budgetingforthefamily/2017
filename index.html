@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+<title>BudgetingJS</title>
+<link id="favicon" rel="shortcut icon" type="image/x-con" href="resources/favicon.ico"/>
+
+<!-- Okay Google, you win -->
+<!-- <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"/> -->
+
+<!-- Some style to rock your world -->
+<style>
+	@font-face {
+		font-family: "Lobster";
+		src: url("resources/Lobster-Regular.ttf");
+	}
+
+	#daynighttoggler {
+		padding: 0;
+		right: 10px;
+		width: 28px;
+	}
+
+	.ownervisibilitytoggler {
+		background-color: #eee;
+		border: 1px solid #aaa;
+		border-radius: 0.3em;
+		bottom: 10px;
+		cursor: pointer;
+		font-family: "Lobster", monospace;
+		height: 20px;
+		line-height: 20px;
+		margin: 0;
+		opacity: 0.5;
+		padding: 0 0.3em;
+		position: fixed;
+		text-align: center;
+		vertical-align: middle;
+
+		/* Proprietary CSS Properties for Animation */
+		-moz-transition: opacity 0.25s ease;
+		-webkit-transition: opacity 0.25s ease;
+		-ms-transition: opacity 0.25s ease;
+		-o-transition: opacity 0.25s ease;
+		transition: opacity 0.25s ease;
+
+		-moz-user-select: none;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+		-o-user-select: none;
+		user-select: none;
+	}
+
+	.ownervisibilitytoggler:hover {
+		opacity: 1;
+	}
+
+	.ownervisibilitytoggler:active {
+		background-color: black;
+		color: white;
+		opacity: 1;
+
+		-moz-transition: none;
+		-webkit-transition: none;
+		-ms-transition: none;
+		-o-transition: none;
+		transition: none;
+	}
+</style>
+
+<!-- There would be nothing without the scripts below. Nothing. -->
+<script src="resources/jquery-2.2.4.min.js"></script>
+<script src="resources/highcharts.js"></script>
+<script src="resources/exporting.js"></script>
+<script src="resources/helper-functions.js"></script>
+<script src="resources/compilation.lv-0.js"></script>
+<script src="resources/compilation.lv-1.js"></script>
+</head>
+
+<!-- Well, just an empty div. How fun is that? -->
+<body id="body" style="width: 100%; height: 100%; margin: 0; padding: 0; position: absolute;">
+<div id="container" style="width: 100%; height: 100%; padding: 0; margin: 0;"></div>
+</body>
+
+</html>
