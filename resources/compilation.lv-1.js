@@ -32,6 +32,7 @@ function updateHiCharts (visibleOwner) {
 	// The main owner has the possibility of being in debt
 	var minYValue = Math.min.apply (Math, dataSeries[dataSeries.length - 1].data);
 
+	// Prevent a "rich" main owner from overshadowing all other owners in the chart
 	if (minYValue > 0)
 		minYValue = 0;
 
