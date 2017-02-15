@@ -29,10 +29,16 @@ function updateHiCharts (visibleOwner) {
 	// Make sure that if there is a main owner, the money left over is colored green. This is for emphasis
 	if ($mainOwner && $mainOwner !== false) dataSeries[dataSeries.length - 1].color = '#008800';
 
-	// The main owner has the possibility of being in debt
-	var minYValue = Math.min.apply (Math, dataSeries[dataSeries.length - 1].data);
+	// Set the smallest value found in the entire data set
+	var minYValue = Infinity;
+	for (var i = 0; i < dataSeries.length; i++) {
+		var currentMin = Math.min.apply (Math, dataSeries[i].data);
 
-	// Prevent a "rich" main owner from overshadowing all other owners in the chart
+		if (current < minYValue)
+			minYValue = current;
+	}
+
+	// Prevent cutting off displaying values if all are above zero
 	if (minYValue > 0)
 		minYValue = 0;
 
