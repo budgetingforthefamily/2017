@@ -34,8 +34,8 @@ function updateHiCharts (visibleOwner) {
 	for (var i = 0; i < dataSeries.length; i++) {
 		var currentMin = Math.min.apply (Math, dataSeries[i].data);
 
-		if (current < minYValue)
-			minYValue = current;
+		if (currentMin < minYValue)
+			minYValue = currentMin;
 	}
 
 	// Prevent cutting off displaying values if all are above zero
