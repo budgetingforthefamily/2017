@@ -12,7 +12,7 @@
 			"payPerPeriod": 400,
 			"income": [787.08, 567.54, 1560.3, 536.03],
 			"actualExpenses": {
-				"Other Expenses": [214.29, 63.33, 245.88, -112.06],
+				"Other Expenses": [214.29, 63.33, 54.88, 78.94],
 				"Household Expenses": [34.4, 94.28, 135.22],
 				"Property Taxes": [240],
 				"Google Pixel 32GB": [0, 0, 702.54]
