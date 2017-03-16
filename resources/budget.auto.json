@@ -10,7 +10,7 @@
 	"owners": {
 		"Son 1": {
 			"payPerPeriod": 400,
-			"income": [787.08, 567.54, 1560.3, 536.03, 148.93],
+			"income": [787.08, 567.54, 1560.3, 536.03, 148.93, 570.32],
 			"actualExpenses": {
 				"Other Expenses": [214.29, 63.33, 54.88, 117.15, 245.31],
 				"Household Expenses": [34.4, 94.28, 135.22, 78.39, 32.65],
@@ -19,7 +19,7 @@
 			}
 		},
 		"Son 2": {
-			"income": [1026.68, 0, 0, 89, 60],
+			"income": [1026.68, 0, 0, 89, 60, 0],
 			"actualExpenses": {
 				"Google Fi": [29.73, 0, 28.39, 0, 28.02],
 				"Cici's Pizza": [40],
@@ -30,7 +30,7 @@
 			}
 		},
 		"Parent 1": {
-			"income": [179.25, 0, 0, 0, 101.54],
+			"income": [179.25, 0, 0, 0, 101.54, 0],
 			"actualExpenses": {
 				"Miscellaneous": [48.68, 100],
 				"Other Expenses": [29.61],
