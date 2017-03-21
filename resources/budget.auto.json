@@ -12,8 +12,8 @@
 			"payPerPeriod": 400,
 			"income": [787.08, 567.54, 1560.3, 536.03, 148.93, 570.32],
 			"actualExpenses": {
-				"Other Expenses": [214.29, 63.33, 54.88, 117.15, 245.31],
-				"Household Expenses": [34.4, 94.28, 135.22, 78.39, 32.65],
+				"Other Expenses": [214.29, 63.33, 54.88, 117.15, 245.31, 138.01],
+				"Household Expenses": [34.4, 94.28, 135.22, 78.39, 32.65, 28.59],
 				"Property Taxes": [240],
 				"Google Pixel 32GB": [0, 0, 702.54]
 			}
@@ -32,7 +32,7 @@
 		"Parent 1": {
 			"income": [179.25, 0, 0, 0, 101.54, 0],
 			"actualExpenses": {
-				"Miscellaneous": [48.68, 100],
+				"Miscellaneous": [48.68, 100, 0, 0, 0, 40],
 				"Other Expenses": [29.61],
 				"Car Back Lights": [0, 0, 102.5]
 			}
