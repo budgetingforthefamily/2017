@@ -9,7 +9,6 @@
 	"onlyDisplayMainOwner": true,
 	"owners": {
 		"Son 1": {
-			"payPerPeriod": 400,
 			"income": [787.08, 567.54, 1560.3, 536.03, 148.93, 570.32],
 			"actualExpenses": {
 				"Other Expenses": [214.29, 63.33, 54.88, 117.15, 245.31, 177.16],
